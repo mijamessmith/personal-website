@@ -1,0 +1,40 @@
+.Projects {
+    width: 100%;
+    text-align: center;
+    border-left: 4px solid white;
+    margin-top: 300px;
+    background-color: #76d8c6;
+    padding-left: 5%;
+}
+
+.Projects-title {
+    font-size: 40px;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.Projects-body {
+    text-align: left
+}
+
+.ProjectCard {
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.ProjectCard-title {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.ProjectCard-link {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ProjectCard-description {
+    font-size: 25px;
+}

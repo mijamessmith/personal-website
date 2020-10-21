@@ -1,0 +1,29 @@
+.SidebarNav {
+    width: 6%;
+    text-align: left;
+    margin-right: 50px;
+    position: absolute;
+    right: 0;
+    height: 300px;
+}
+
+.SidebarNav-ul {
+    margin-left: 8px;
+    text-align: left;
+    padding: 0;
+}
+
+
+.SidebarNav-ul li  {
+    list-style-type: none;
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+ 
+}
+
+.SidebarNav-ul a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,18 @@
+.About {
+    width: 100%;
+    background-color: #dea0ed;
+    text-align: center;
+    border-left: 4px solid white;
+    padding-left: 5%;
+    margin-top: 300px;
+}
+
+.About-title {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.About-body {
+    font-size: 20px;
+}

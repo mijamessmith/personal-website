@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './Resources/CSS/LandingPage.css';
+import './Resources/CSS/PageTitle.css';
+import './Resources/CSS/About.css';
+import './Resources/CSS/Contact.css';
+import './Resources/CSS/Footer.css';
+import './Resources/CSS/Projects.css';
+import './Resources/CSS/SidebarNav.css';
+import './Resources/CSS/Socials.css';
+import './Resources/CSS/EmailForm.css';
+
+import LandingPage from './Components/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <LandingPage/>
     </div>
   );
 }

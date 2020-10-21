@@ -1,0 +1,29 @@
+.Contact {
+    width: 100%;
+    text-align: center;
+    border-left: 4px solid white;
+    padding-left: 5%;
+    margin-top: 300px;
+    background-color: #ffb7c0;
+}
+
+.Contact-title {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.Contact-body {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.Contact-body-ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.Contact-body-ul li {
+    margin-top: 8px;
+}
