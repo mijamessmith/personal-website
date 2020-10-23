@@ -1,22 +1,38 @@
 .EmailForm {
-    width: 100%;
+    max-width: 100%;
     text-align: left;
     border-left: 4px solid white;
     margin-top: 300px;
-    background-color: #d8d8d8;
+    background-color: #31708E;
     padding-left: 5%;
+    letter-spacing: .075em;
+    color: white;
 }
 
 .EmailForm h2 {
-
+    letter-spacing: .1em;
 }
 
 .EmailForm-sm-input {
     width: 200px;
     height: 25px;
+    letter-spacing: .2em;
 }
 
 .EmailForm-msg {
     height: 100px;
     width: 70%;
+    letter-spacing: .2em;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .EmailForm {
+        max-height: 400px;
+    }
+    
+    
+    .EmailForm h2 {
+        padding-top: 10px;
+    }
+
 }

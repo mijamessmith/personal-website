@@ -4,10 +4,10 @@ export default function PageTitle() {
     return (
         <div className="PageTitle">
             <h2>
-                Welcome - I'm Michael
+                Michael J Smith
             </h2>
             <h4>
-                I'm a fullstack engineer and concert pianist
+                Fullstack Engineer || Concert Pianist
             </h4>
         </div>
         )

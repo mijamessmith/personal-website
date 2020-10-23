@@ -7,7 +7,6 @@ export default function SidebarNav() {
                 <li href=''><a href="#About">About</a></li>
                 <li href=''><a href="#Projects">Work</a></li>
                 <li href=''><a href="#Contact">Contact</a></li>
-                <li href=''><a href="#Socials">Socials</a></li>
             </ul>
         </div>
         )

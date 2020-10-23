@@ -1,0 +1,18 @@
+.Headshot-Container {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.Headshot {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    padding-left: 5%;
+}
+
+.Headshot-Container img {
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 250px;
+}

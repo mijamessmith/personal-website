@@ -9,6 +9,7 @@ import './Resources/CSS/Projects.css';
 import './Resources/CSS/SidebarNav.css';
 import './Resources/CSS/Socials.css';
 import './Resources/CSS/EmailForm.css';
+import './Resources/CSS/Headshot.css';
 
 import LandingPage from './Components/LandingPage';
 

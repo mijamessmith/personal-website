@@ -1,26 +1,51 @@
 .SidebarNav {
-    width: 6%;
-    text-align: left;
-    margin-right: 50px;
-    position: absolute;
-    right: 0;
-    height: 300px;
+    width: auto;
+    order: 5;
+    text-align: center;
+    padding-left: 100px;
+    background-color: #5085A5;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .SidebarNav {
+        max-width: 764px;
+        margin: 0;    
+    }
+
+    .SidebarNav-ul {
+        margin-top: 10px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .SidebarNav-ul li {
+        list-style-type: none;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: left;
+        display: inline;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
 }
 
 .SidebarNav-ul {
     margin-left: 8px;
-    text-align: left;
+    text-align: right;
     padding: 0;
+    
 }
 
 
-.SidebarNav-ul li  {
+.SidebarNav-ul li {
     list-style-type: none;
-    font-size: 35px;
-    color: white;
+    font-size: 40px;
+    font-weight: 500;
     text-align: left;
-    margin-top: 10px;
- 
+    display: inline;
+    margin-left: 15px;
+
+
 }
 
 .SidebarNav-ul a {

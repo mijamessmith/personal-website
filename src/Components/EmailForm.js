@@ -3,21 +3,18 @@ import React from 'react';
 export default function EmailForm() {
     return(
         <div className='EmailForm'>
-            <h2>Send Michael a Message</h2>
-            <form action="mailto:mijamessmith@gmail.com" method="post" enctype="text/plain">
-                Your Name:
+            <h2>Message Michael</h2>
+            <form action="mailto:mijamessmith@gmail.com" method="post" enctype="text/plain">        
                 <br/>
-                <input className="EmailForm-sm-input" type="text" name="name"/>
+                <input className="EmailForm-sm-input" value="Name" type="text" name="name"/>
                 <br />
-                E-mail:
                 <br />
-                <input className="EmailForm-sm-input" type="text" name="mail" />
+                <input className="EmailForm-sm-input" value="Email" type="text" name="mail" />
+                <br />       
                 <br />
-                Message:
-                <br />
-                <input className="EmailForm-msg" type="text" name="body" size="50" />
+                <input className="EmailForm-msg" value="Your Message" type="text" name="body" size="50" />
                 <br/>
-                <input type="submit" value="Send"/>
+                <input className="EmailForm-btn" type="submit" value="Send"/>
                 <input type="reset" value="Reset"/>
                 </form>
         </div>

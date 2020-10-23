@@ -7,18 +7,23 @@ import Socials from './Socials';
 import About from './About';
 import Footer from "./Footer";
 import EmailForm from "./EmailForm";
+import Headshot from "./Headshot";
 
 
 export default function LandingPage() {
     return (
         <div className="LandingPage">
-            <PageTitle />
-            <SidebarNav />
+            <div className="LandingPage-header-container">
+                <PageTitle />
+                <Socials />
+                <SidebarNav />
+            </div>
+            <Headshot />
             <About />
             <Projects />
             <Contact />
             <EmailForm/>
-            <Socials />
+    
             <Footer />
         </div>
         )
