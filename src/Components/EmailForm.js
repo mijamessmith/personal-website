@@ -15,7 +15,7 @@ export default function EmailForm() {
                 <input className="EmailForm-msg" value="Your Message" type="text" name="body" size="50" />
                 <br/>
                 <input className="EmailForm-btn" type="submit" value="Send"/>
-                <input type="reset" value="Reset"/>
+                <input className="EmailForm-btn" type="reset" value="Reset"/>
                 </form>
         </div>
     )

@@ -2,7 +2,7 @@
     width: auto;
     order: 5;
     text-align: center;
-    padding-left: 100px;
+    text-transform: uppercase;
     background-color: #5085A5;
 }
 
@@ -24,7 +24,7 @@
         font-weight: 500;
         text-align: left;
         display: inline;
-        margin-left: 10px;
+        margin-left: 15px;
         margin-top: 10px;
     }
 }
@@ -40,7 +40,7 @@
 .SidebarNav-ul li {
     list-style-type: none;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: left;
     display: inline;
     margin-left: 15px;
@@ -51,4 +51,11 @@
 .SidebarNav-ul a {
     text-decoration: none;
     color: black;
+    font-weight: 600;
+    margin-left: 15px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.SidebarNav-ul a:hover {
+  color: white;
 }

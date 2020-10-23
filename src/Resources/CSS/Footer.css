@@ -1,5 +1,7 @@
 .Footer {
     max-width: 100%;
     text-align: center;
-    background-color: #31708E;
+    background-color: white;
+    max-height: 500px;
+    padding-top: 100px;
 }

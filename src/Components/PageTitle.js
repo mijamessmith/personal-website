@@ -4,7 +4,7 @@ export default function PageTitle() {
     return (
         <div className="PageTitle">
             <h2>
-                Michael J Smith
+                MICHAEL J SMITH
             </h2>
             <h4>
                 Fullstack Engineer || Concert Pianist
