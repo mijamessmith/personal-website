@@ -15,8 +15,8 @@ export default function LandingPage() {
         <div className="LandingPage">
             <div className="LandingPage-header-container">
                 <PageTitle />
-                <Socials />
                 <SidebarNav />
+                <Socials />
             </div>
             <Headshot />
             <About />
