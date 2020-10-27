@@ -8,7 +8,7 @@ import About from './About';
 import Footer from "./Footer";
 import EmailForm from "./EmailForm";
 import Headshot from "./Headshot";
-
+import Music from "./Music"
 
 export default function LandingPage() {
     return (
@@ -21,6 +21,7 @@ export default function LandingPage() {
             <Headshot />
             <About />
             <Projects />
+            <Music />
             <Contact />
             <EmailForm/>
     

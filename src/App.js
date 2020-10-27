@@ -10,6 +10,7 @@ import './Resources/CSS/SidebarNav.css';
 import './Resources/CSS/Socials.css';
 import './Resources/CSS/EmailForm.css';
 import './Resources/CSS/Headshot.css';
+import './Resources/CSS/Music.css';
 
 import LandingPage from './Components/LandingPage';
 

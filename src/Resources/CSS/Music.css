@@ -1,0 +1,51 @@
+.Music {
+    max-width: 100%;
+    background-color: #ECECEC;
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 100px;
+    font-family: 'Fanwood Text', serif;
+    padding-bottom: 50px;
+    white-space: pre-wrap;
+}
+
+.Music-title {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.Music-body {
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.Music-videos {
+    text-align: left;
+    margin-left: 5%;
+    display: flex;
+}
+
+.Music-videos-description {
+    order: 6;
+}
+
+.Music-videos-description li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Music-videos-titles{
+
+}
+
+.Music-videos-iframe {
+    order: 6;
+    width:  875px;
+    height: 500px;
+    padding-left: 5%;
+}
