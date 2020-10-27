@@ -1,4 +1,5 @@
 import React from 'react';
+import Socials from "./Socials"
 
 export default function SidebarNav() {
     return (
@@ -9,6 +10,10 @@ export default function SidebarNav() {
                 <li href=''><a href="#Music">Music</a></li>
                 <li href=''><a href="#Contact">Contact</a></li>
             </ul>
+            <div>
+                <Socials />
+
+            </div>
         </div>
         )
 }

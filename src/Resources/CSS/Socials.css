@@ -1,8 +1,9 @@
 .Socials {
     position: relative;
-    text-align: center;
+    text-align: right;
     order: 3;
     background-color: #5085A5;
+    margin-left: 200px;
     
 }
 
