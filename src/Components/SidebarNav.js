@@ -6,6 +6,7 @@ export default function SidebarNav() {
             <ul className='SidebarNav-ul'>
                 <li href=''><a href="#About">About</a></li>
                 <li href=''><a href="#Projects">Work</a></li>
+                <li href=''><a href="#Music">Music</a></li>
                 <li href=''><a href="#Contact">Contact</a></li>
             </ul>
         </div>

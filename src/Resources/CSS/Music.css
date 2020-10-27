@@ -1,6 +1,6 @@
 .Music {
     max-width: 100%;
-    background-color: #ECECEC;
+    background-color: #8FC1E3;
     text-align: center;
     padding-left: 5%;
     margin-top: 100px;
@@ -11,8 +11,12 @@
 
 .Music-title {
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 38px;
     text-align: left;
+    letter-spacing: .1em;
+    border-bottom: 5px solid white;
+    width: 200px;
+    text-shadow: .5px .5px 0px rgba(255,255,255,1);
 }
 
 .Music-body {
@@ -21,6 +25,7 @@
     padding-bottom: 50px;
     text-align: left;
     white-space: pre-wrap;
+    text-shadow: .5px .5px 0px rgba(255,255,255,1);
 }
 
 .Music-videos {
@@ -31,13 +36,15 @@
 
 .Music-videos-description {
     order: 6;
+    text-shadow: .5px .5px 0px rgba(255,255,255,1);
 }
 
-.Music-videos-description li {
-    list-style: none;
-    font-size: 20px;
-    font-weight: 600;
-}
+    .Music-videos-description li {
+        list-style: none;
+        font-size: 20px;
+        font-weight: 600;
+        text-shadow: .5px .5px 0px rgba(255,255,255,1);
+    }
 
 .Music-videos-titles{
 

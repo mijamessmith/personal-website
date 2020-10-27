@@ -5,7 +5,7 @@ export default function Music() {
     let videoDescriptions = "Live at National Sawdust, Brooklyn NY with Carnegie Hall's Ensemble Connect"
     let videoTitles = "Chamber Symphonie No.1 by Arnold Schoenberg, arranged by Anton Webern"
     return (
-        <div className="Music">
+        <div className="Music" id="Music">
             <h2 className="Music-title">Music</h2>
             <h4 className="Music-body">
                 {musicBio}

@@ -2,40 +2,47 @@
     max-width: 100%;
     text-align: left;
     border-left: 4px solid white;
-    margin-top: 0;
+    margin-top: 100px;
     background-color: #31708E;
     padding-left: 5%;
     letter-spacing: .075em;
     color: white;
     padding-bottom: 30px;
+  
 }
 
-.EmailForm h2 {
-    padding-top: 20px;
-    letter-spacing: .1em;
-    margin-top: 0;
-}
+    .EmailForm h2 {
+        padding-top: 20px;
+        letter-spacing: .1em;
+        margin-top: 0;
+        font-size: 38px;
+    }
 
 .EmailForm-sm-input {
-    width: 200px;
-    height: 25px;
+    width: 300px;
+    height: 35px;
     letter-spacing: .2em;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .EmailForm-msg {
     height: 100px;
     width: 70%;
     letter-spacing: .2em;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .EmailForm-btn {
     margin-top: 20px;
     margin-right: 30px;
-    height: 60px;
-    width: 120px;
+    height: 50px;
+    width: 100px;
     font-size: 20px;
     font-weight: 600;
     border-radius: 7px;
+    border: 2px solid white;
 }
 
 @media screen and (min-width:320px) and (max-width:1024px) {
